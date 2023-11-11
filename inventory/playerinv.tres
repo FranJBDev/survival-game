@@ -1,0 +1,56 @@
+[gd_resource type="Resource" script_class="Inv" load_steps=15 format=3 uid="uid://dcxfyn84i70kd"]
+
+[ext_resource type="Script" path="res://inv_slot.gd" id="2_36kwm"]
+[ext_resource type="Script" path="res://inventory/inventory.gd" id="2_l0w4c"]
+
+[sub_resource type="Resource" id="Resource_hiv25"]
+script = ExtResource("2_36kwm")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_ro7mi"]
+script = ExtResource("2_36kwm")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_qak12"]
+script = ExtResource("2_36kwm")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_pts43"]
+script = ExtResource("2_36kwm")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_0ewdv"]
+script = ExtResource("2_36kwm")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_odwjt"]
+script = ExtResource("2_36kwm")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_xxkrb"]
+script = ExtResource("2_36kwm")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_epj41"]
+script = ExtResource("2_36kwm")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_2pxnr"]
+script = ExtResource("2_36kwm")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_658af"]
+script = ExtResource("2_36kwm")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_vs4ix"]
+script = ExtResource("2_36kwm")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_hregt"]
+script = ExtResource("2_36kwm")
+amount = 0
+
+[resource]
+script = ExtResource("2_l0w4c")
+slots = Array[ExtResource("2_36kwm")]([SubResource("Resource_hiv25"), SubResource("Resource_ro7mi"), SubResource("Resource_qak12"), SubResource("Resource_pts43"), SubResource("Resource_0ewdv"), SubResource("Resource_odwjt"), SubResource("Resource_xxkrb"), SubResource("Resource_epj41"), SubResource("Resource_2pxnr"), SubResource("Resource_658af"), SubResource("Resource_vs4ix"), SubResource("Resource_hregt")])
