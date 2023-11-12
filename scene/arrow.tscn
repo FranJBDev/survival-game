@@ -5,6 +5,10 @@
 [node name="arrow" type="Area2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0, 0, 0.00784314, 1)
 position = Vector2(-3.8147e-06, 0)
+rotation = 1.5708
 scale = Vector2(0.029, 0.281)
 texture = ExtResource("1_dqv5f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
